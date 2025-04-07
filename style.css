@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #0f0f0f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo img {
+    height: 20px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    flex: 0 1 600px;
+}
+
+.barra-pesquisa input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #303030;
+    background-color: #121212;
+    color: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+.barra-pesquisa button {
+    padding: 10px 20px;
+    background-color: #303030;
+    border:  1px solid #303030;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container {
+    margin-top: 60px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.video-principal {
+    flex: 3;
+}
+
+.video-principal iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.video-principal h1 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.info-canal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.info-canal .perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.info-canal p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.info-canal img[alt="like"] {
+    cursor: pointer;
+}
+
+.recomendados {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.recomendados .video {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.recomendados .video img {
+    width: 168px;
+    height: 94px;
+    border-radius: 8px;
+}
+
+.recomendados .video p {
+    font-size: 14px;
+    line-height: 1.4;
+}
