@@ -138,3 +138,56 @@ nav ul li a {
     font-size: 14px;
     line-height: 1.4;
 }
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.comentario {
+    display: flex;
+    gap: 10px;
+}
+
+.comentario img, .novoComentario img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.resposta {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+.resposta img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.novoComentario {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.novoComentario div {
+    flex: 1;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 8px;
+}
+
+.novoComentario p {
+    color: #717171;
+    font-size: 14px;
+    padding: 8px 0;
+    cursor: text;
+}
+
+
